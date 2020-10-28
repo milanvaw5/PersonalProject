@@ -1,4 +1,4 @@
-De Klant: mezelf
+De Klant: myself
 
 Core Project Statement:
 
@@ -8,11 +8,15 @@ My eye fell on live programming of music. As several people practice this I want
 
 As I found Alex McLean online I got introduced to how it works and with what programs they work. So I installed SuperCollider and got working with tidal.
 
-I'm gonna look deeper into connecting C# or Javascript to Tidal. When this will be possible I would like to connect my visuals to the loops.
+A friend of mine talked about an opera piece called ‘Einstein on the beach’ where the audiance is the piece. There is no story or structure in the story.
 
-More in depth explanation coming soon...
+I want to make a website with the live structure of a part of the pusicpeace where you can adjust your mood and it plays according to what you have chosen.
+
+The music and the mood will be supported by visuals. So that my website as the musicpiece will have the audience's experience as result.
 
 Deliverables:
-A complete 'set of tidalloops connected with my C#/ Javascript and visuals
+
+A website
+
 
 URL: https://milanvanalderwerelt.wordpress.com
