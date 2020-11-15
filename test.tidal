@@ -1,0 +1,35 @@
+--elke 10 bassen begint bass in andere toon
+d1 $ sound "[[east:0]*10 [east:2]*10 [east:1]*10]/10"
+d2 $ sound "casio:0 casio:1"
+
+
+
+d3 $ sound "jungle:0 jungle:3 jungle:5"
+
+d3 $ sound "jungle:0 jungle:3"
+
+d3 $ sound "jungle:0 jungle:3 jungle:5"
+
+d3 $ sound "jungle:13 jungle:12 jungle:11"
+
+d3 $ sound "jungle:0 jungle:3 . jungle:2 jungle:0 jungle:3"
+
+d3 $ sound "[jungle:2 jungle:0 jungle:3] [jungle:5 jungle:13]"
+
+
+d4 $ n "[a e f g] [a e f g b c] [a e f g b c d w] " # sound "supergong"
+
+d4 $ n "[a e f g] [a e f g b c] [a e f g b c d w] " # sound "supergong"
+
+d5 $ n "a e f g b c d w" # sound "supergong"
+
+d2 silence
+d3 silence
+hush
+
+d2 $ sound "bass:3"
+d2 $ sound "bass:0"
+d2 $ sound "bass:1"
+
+
+
