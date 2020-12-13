@@ -1,0 +1,39 @@
+-- one sound
+d1 $ sound "hi:1"
+d1 $ s "hi"
+
+d2 $ s "bd"
+
+hush
+-- more sounds per cycle (.. .. / ! / * / ~ )
+d3 $ s "hi lo"
+
+d3 $ s "hi!2"
+d4 $ s "hi*2"
+
+hush
+
+d3 $ s "hi!2 ~ ~ lo"
+
+-- grouping sounds ( [] / . )
+d3 $ s "[hi!2 ~] [~ lo hi hi]"
+d3 $ s "hi!2 ~ . ~ lo hi hi"
+d3 $ s "[hi!2 ~] [~ lo [hi hi]]"
+
+-- one sound per cycle ( < > )
+d3 $ s "hi <lo:1 lo:2 lo:3>"
+
+-- pattern on sound ( n "" )
+d3 $ n "1 <1 2 3>" # s "hi lo lo lo" -- structure comes from the left
+
+-- Euclidean sequences ( euclid 5 8 )
+d3 $ euclid 5 8 $ sound "hi"
+
+-- Faster / slower ( fast 2 / slow 2 )
+d3 $ fast 2 $ s "hi"
+d3 $ slow 2 $ s "hi*2"
+
+-- polymeter ( different pattern, same pulse/tempo {} )
+d1 $ sound "{bd hh sn cp, arpy bass2 drum notes can}"
+
+-- and so on...

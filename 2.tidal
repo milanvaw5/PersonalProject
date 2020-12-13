@@ -1,0 +1,25 @@
+setcps 0.5333
+
+-- hh 5
+d1 $ s "house:3*8" #gain(0.8)
+d2 silence
+-- clap
+d4 $ s "house:4" -- 6
+d2 $ s "linnhats:6" #room(0.2) --3
+hush
+d0 silence
+
+-- kick 1
+d3 $ s "techno:1*4" #gain(1.3)
+d6 $ slow 2 $ s "bass3:1*2" #gain(0.8) #octave(4) --last
+
+--oh apart 2
+d5 $ s "~  lighter:6 ~  lighter:6" #gain(1.1)
+
+d4 silence
+-- bass  4
+d0 $ slow 4 $ s "ownsynths:10" #gain(0.8)
+#room(1)
+#octave(6)
+d0 silence
+d0 $ slow 4 $ s "ownsynths:9" #gain(1)
