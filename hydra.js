@@ -1,5 +1,14 @@
 // Intro
 
+s0.initCam(({time})=>Math.sin(time/2))// initialize a webcam in source buffer s0
+s1.initScreen()
+a.show()
+src(s0)
+  .brightness(()=>Math.random()*0.15)
+  .colorama(({time}) => Math.sin(time/5))
+    .layer(src(s1)
+      .mask(osc(1,1,1))).diff(shape(5, () => a.fft[0]).scale(5)).out()
+
 
 // Forwarding tidal messages from supercollider to hydra
 // Run the play2 function in SuperCollider. This file forwards all messages.

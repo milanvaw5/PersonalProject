@@ -9,7 +9,7 @@ hush
 d3 $ s "hi lo"
 
 d3 $ s "hi!2"
-d4 $ s "hi*2"
+d3 $ s "hi*2"
 
 hush
 
@@ -30,10 +30,10 @@ d3 $ n "1 <1 2 3>" # s "hi lo lo lo" -- structure comes from the left
 d3 $ euclid 5 8 $ sound "hi"
 
 -- Faster / slower ( fast 2 / slow 2 )
-d3 $ fast 2 $ s "hi"
-d3 $ slow 2 $ s "hi*2"
+d3 $ fast 4 $ s "hi"
+d3 $ slow 2 $ every 3 (|+ speed "1") $ s "hi*2 lo" #gain(0.5) #room(0.2) |> speed "1"
 
 -- polymeter ( different pattern, same pulse/tempo {} )
-d1 $ sound "{bd hh sn cp, arpy bass2 drum notes can}"
+d1 $ sound "{hi hi hi hi, lo lo lo lo lo}"
 
 -- and so on...
