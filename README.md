@@ -2,6 +2,9 @@
 
 _First of all, Thanks for joining me on my journey!_
 
+## The Client:
+This project is for myself.
+
 ## The Concept:
 My idea; for my project I want to go very experimental. Try something new and combine it with the things I have seen in my course at Howest over the past years.
 
